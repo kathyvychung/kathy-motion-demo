@@ -379,7 +379,24 @@ textarea {
 /* =============
     Demo
 ============= */
-.red-box {
+.stick {
+  border-top: 10px solid #A52A2A;
+  width: 800px; }
+
+.circle-1 {
   height: 200px;
   width: 200px;
-  background-color: #f13232; }
+  border-radius: 50%;
+  background-color: #50A514; }
+
+.circle-2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #fff8dc; }
+
+.circle-3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #F3BFC6; }
