@@ -1,0 +1,1 @@
+!function(o){"use strict";o.gsap.to(".red-box",{duration:3,borderRadius:"20"}),o.gsap.to(".red-box",{duration:3,rotation:360,repeat:3,delay:3});var e=Object.freeze({__proto__:null});console.log(e)}(gsap);
