@@ -7,7 +7,7 @@
 		"uuidString": "0AE7C118-56E6-4285-8C11-D179F538E479"
 		}
 	],
-"creatorBuild": "32001",
+"creatorBuild": "32186",
 "files": {
 	"/deploy/css/styles.css": {
 		"aP": 1,
@@ -70,13 +70,57 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/animationSpeed.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/animationSpeed-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/demo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/greenCircle.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/greenCircle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/greenDisappear.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/greenDisappear-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/pinkCircle.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/pinkCircle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -92,161 +136,194 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/stick.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/stick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/whiteCircle.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/whiteCircle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/whiteDisappear.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/whiteDisappear-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_base.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/sections/_demo.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_demo.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/deploy/css/styles.css",
 		"oF": 2,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -854,6 +931,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -1266,6 +1347,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -1381,6 +1466,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -1525,6 +1614,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -2334,13 +2427,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

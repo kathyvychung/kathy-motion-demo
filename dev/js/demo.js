@@ -1,23 +1,25 @@
-import {gsap} from "gsap";
+// import {gsap} from "gsap";
 
 
 /* -----------------
     Demo Script
 ----------------- */
 
-var timeOfAnimation = 2;
+// var timeOfAnimation = 2;
 
-gsap.to(".stick",{duration: timeOfAnimation, rotation: 360, x:500, y:400});
+// var boxAnimationTL = gsap.timeline();
 
-gsap.from(".circle-1",{duration: timeOfAnimation, x:-800, y:300, delay:2});
-gsap.to(".circle-1",{duration: timeOfAnimation, x:800, y:300, delay:2});
+// boxAnimationTL.to(".stick",{duration: timeOfAnimation, rotation: 360, x:500, y:400})
 
-gsap.from(".circle-2",{duration: timeOfAnimation, x:-700, y:100, delay:3 });
-gsap.to(".circle-2",{duration: timeOfAnimation, x:700, y:100, delay:3 });
+//             .from(".circle-1",{duration: timeOfAnimation, x:-800, y:300})
+//             .to(".circle-1",{duration: timeOfAnimation, x:800, y:300})
 
-gsap.from(".circle-3",{duration: timeOfAnimation, x:-550, y:-100, delay:4 });
-gsap.to(".circle-3",{duration: timeOfAnimation, x:550, y:-100, delay:4 });
+//             .from(".circle-2",{duration: timeOfAnimation, x:-700, y:100})
+//             .to(".circle-2",{duration: timeOfAnimation, x:700, y:100},"-=0.5")
 
-gsap.to(".circle-3",{duration: 1, alpha:0, delay:6});
-gsap.to(".circle-2",{duration: 1, alpha:0, delay:7});
-gsap.to(".circle-1",{duration: 1, alpha:0, delay:8});
+//             .from(".circle-3",{duration: timeOfAnimation, x:-550, y:-100})
+//             .to(".circle-3",{duration: timeOfAnimation, x:550, y:-100},"-=0.5")
+
+//             .to(".circle-3",{duration: 1, alpha:0})
+//             .to(".circle-2",{duration: 1, alpha:0})
+//             .to(".circle-1",{duration: 1, alpha:0});
