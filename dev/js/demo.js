@@ -10,10 +10,17 @@ giraffeTL.from("#neck",{duration: 5, y: 600, ease: "none"}, "swing")
         .from("#tail",{rotation:20, transformOrigin:"left top"}, "swing")
         .from("#tail",{rotation:0, transformOrigin:"left top"}, "swing")
         .to("#part1",{ duration: 0.1, alpha: 0})
+<<<<<<< HEAD
         // .from("#goal",{alpha:0})
         // .from("#neck2",{duration: 3, y: 400},"rise")
         // .from("#numberFill2",{duration: 2.5, y: 500},"rise")
         // .to("#ear2",{rotation:20, transformOrigin:"left top"});
+=======
+        .from("#goal",{alpha:0})
+        .from("#neck2",{duration: 3, y: 400},"rise")
+        .from("#numberFill2",{duration: 2.5, y: 500,},"rise");
+        .to("#ear2",{rotation:20, transformOrigin:"left top"})
+>>>>>>> parent of e97ccdd... loading edits
 
 
 export function giraffeAnimation(){
