@@ -5,8 +5,7 @@ gsap.set("#neck",{transformOrigin: "center"})
     Demo Script
 ----------------- */
 const giraffeTL = gsap.timeline();
-giraffeTL.from("#numbers",{duration: 2, alpha:0})
-        .from("#neck",{duration: 5, y: 600, ease: "none"}, "swing")
+giraffeTL.from("#neck",{duration: 5, y: 600, ease: "none"}, "swing")
         .to("#tail",{duration:1, rotation:20, transformOrigin:"left top", repeat:5, ease: "none"}, "swing")
         .from("#tail",{duration:1, rotation:0, transformOrigin:"left top", repeat:5, ease: "none"}, "swing")
         .to("#part1",{ duration: 0.1, alpha: 0})
